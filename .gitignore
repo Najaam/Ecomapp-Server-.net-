@@ -1,0 +1,134 @@
+# =========================
+# Build Folders
+# =========================
+bin/
+obj/
+out/
+publish/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Rider / JetBrains
+# =========================
+.idea/
+*.sln.iml
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# NuGet
+# =========================
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+*.tlog
+
+# =========================
+# ASP.NET Core
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+
+# Environment variables
+.env
+.env.*
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Database Files
+# =========================
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Entity Framework
+# =========================
+Migrations/*.Designer.cs
+
+# =========================
+# Test Results
+# =========================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.cache
+
+# =========================
+# Publish Profiles
+# =========================
+Properties/PublishProfiles/
+
+# =========================
+# Azure
+# =========================
+ServiceDependencies/
+ServiceDependencies.Local.json
+
+# =========================
+# Kubernetes
+# =========================
+*.kubeconfig
+
+# =========================
+# Node Modules (if frontend inside solution)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# Secrets
+# =========================
+secrets.json
+*.pfx
+*.key
+*.pem
+
+# =========================
+# SonarQube
+# =========================
+.sonarqube/
+
+# =========================
+# Resharper
+# =========================
+_ReSharper*/
+*.DotSettings.user
