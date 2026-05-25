@@ -33,7 +33,7 @@ namespace eCommrece.SharedLibrary.DependancyInjection
             // use global Exception handling middleware
             app.UseMiddleware<GlobalExceptionMiddleware>();
             // register middle ware for outside api calls
-            app.UseMiddleware<ListenToOnlyApiGatway> ();
+            //app.UseMiddleware<ListenToOnlyApiGatway> ();
             return app;
         }
     }
