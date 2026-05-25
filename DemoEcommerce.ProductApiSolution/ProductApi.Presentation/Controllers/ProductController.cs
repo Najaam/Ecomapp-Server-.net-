@@ -66,6 +66,5 @@ namespace ProductApi.Presentation.Controllers
             var response = await productInterface.DeleteAsync(productEntity);
             return response.Flag is true ? Ok(response) : BadRequest(response.Message);
         }
-
         }
 }
